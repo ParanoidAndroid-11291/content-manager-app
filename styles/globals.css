@@ -14,3 +14,34 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.tasks {
+  margin: 2rem;
+  padding: 1rem;
+}
+
+#resource-detail-wrapper {
+  padding: 2rem;
+}
+
+.detail-label {
+  margin-left: 0.5rem;
+}
+
+.detail-label.active {
+  color: #46A428;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+#add-header {
+  display: flex;
+  justify-content: center;
+}
+
+#form-container {
+  padding: 0 8rem 0 8rem;
+}
